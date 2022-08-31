@@ -1,0 +1,63 @@
+*  {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Telugu', sans-serif;
+    color:rgb(17, 14, 49);
+    font-size: 30px;
+}
+
+.main {
+    background-color: #2f7134;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.main-text{
+    animation: main infinite 2s linear;
+}
+
+@keyframes main{
+    0% {
+        color: rgb(186, 144, 65);
+    }
+    33% {
+        color: rgb(210, 89, 89);
+    }
+    66% {
+        color: rgb(86, 86, 207);
+    }
+    100% {
+        color: rgb(209, 161, 70);
+    }
+}
+.color{
+    font-size: 20px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    color:#fff;
+    justify-content: space-evenly;
+    flex-direction: column ;
+    align-items: center;
+}
+.hex-code{
+    color:#fff;
+}
+.but{
+    cursor: pointer;
+    text-align: center;
+    padding-top: 8px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #FFB6C1;
+
+}
+
+
+.but:hover{
+    background-color: #DB7093;
+}
